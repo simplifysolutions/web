@@ -3,7 +3,7 @@
 #
 #    OpenERP, Open Source Management Solution
 #
-#    Copyright (c) 2014 Noviat nv/sa (www.noviat.com). All rights reserved.
+#    Copyright (c) 2017 SimplifySolutions. All rights reserved.
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -24,7 +24,7 @@
     'name': 'Show selected sheets with full width',
     'version': '8.0.0.1.0',
     'license': 'AGPL-3',
-    'author': 'Noviat, Odoo Community Association (OCA)',
+    'author': 'SimplifySolutions',
     'category': 'Hidden',
     'depends': [
         'web',
@@ -32,6 +32,6 @@
     'data': [
         'views/sheet.xml',
     ],
-    'active': False,
-    'installable': False,
+    'active': True,
+    'installable': True,
     }
